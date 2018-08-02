@@ -1,0 +1,57 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+#artistInfo img {
+  width: auto;
+  height: auto;
+}
+.container {
+  display: flex; 
+  flex-direction: column; 
+}
+#musicPlayer {
+  height: 370px;
+  width: 1240px;
+  margin: auto;
+}
+#artistInfo {
+  height: 250px;
+  width: 140px;
+}
+#waveform {
+  display: flex;
+  position: absolute;
+  right: 350px;
+  left: 30px;
+  bottom: 30px;
+}
+.top {
+  width: 1200px;
+  position: relative;
+  margin: auto;
+}
+.bottom {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+#suggestedTracks {
+  height: 1000px; 
+  width: 350px; 
+}
+#comments {
+  min-height: auto;
+  width: 680px; 
+}
+#comments p {
+  font-size: 16px;
+  color: #999;
+  padding: 0px 0px 15px 10px;
+}
+#comments a {
+  color: #999;
+  text-decoration: none;
+}
+#comments a:hover {
+  color: black; 
+}
