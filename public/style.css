@@ -2,10 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 
 }
-#artistInfo img {
-  width: auto;
-  height: auto;
-}
+
 .container {
   display: flex; 
   flex-direction: column; 
